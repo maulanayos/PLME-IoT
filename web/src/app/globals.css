@@ -1,0 +1,27 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: "#00000";
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9d9d9d;
+}
+
+/* Hotfix drag handle from novel.sh */
+.drag-handle {
+  display: none !important;
+}
